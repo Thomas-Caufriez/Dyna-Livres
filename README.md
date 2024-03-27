@@ -15,3 +15,6 @@ A faire :
     * Changer tous les boutons en fonction de sa réponse
     * Ajouter une destination
 -Mettre des images de logos pour les réseaux (footer)
+
+Utilisation GitHub desktop:
+-Travailler uniquement dans sa branche afin d'éviter des erreurs sur le code principal
