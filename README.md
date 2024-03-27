@@ -18,3 +18,6 @@ A faire :
 
 Utilisation GitHub desktop:
 -Travailler uniquement dans sa branche afin d'éviter des erreurs sur le code principal
+-Comment merge des branches:
+1) Faire un commit en bas à gauche en y ajoutant un résumé des modifications éffectuées ainsi qu'un titre
+2) Créer une "pull request"
