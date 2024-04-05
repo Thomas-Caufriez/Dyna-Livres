@@ -53,6 +53,7 @@ table {
 }
 /*Fin du reset css*/
 
+/* Version desktop */
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* display: flex;
@@ -62,34 +63,34 @@ body {
 /* Section top menu */
 .top {
     background-color: #fcb900;
-    width: 100%;
-    height: 50px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: end;
+    padding-right: 50px;
 
 }
 
 .top a {
-    margin: 0px 20px;
-    font-size: min(2vw, 24px);
+    padding-left: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #401626;
 }
 
 /* Section menu */
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 25px;
+    padding: 15px 50px;
 }
 
 nav a {
-    font-size: min(3vw, 32px);
-    padding-left: 10px;
+    font-size: 24px;
+    padding-left: 20px;
     color: #666666;
+    font-weight: bold;
 }
 
 nav a img {
@@ -121,30 +122,30 @@ nav a img {
         padding-bottom: 15px;
     }
 
-    .colone {
+    .column {
         flex: 33%;
         display: flex;
         flex-direction: column;
     }
 
-    .colone h2 {
+    .column h2 {
         color: white;
         font-weight: 500;
         font-size: min(3vw, 32px);
         margin-bottom: 0.5em;
     }
 
-    .colone p1 {
+    .column p1 {
         font-weight: 650;
         font-size: min(2vw, 20px);
     }
 
-    .colone p2 {
+    .column p2 {
         font-weight: 400;
         font-size: min(2vw, 20px);
     }
 
-    .colone span {
+    .column span {
         margin: 10px 0px;
         line-height: 20px;
     }
@@ -158,7 +159,7 @@ nav a img {
         align-items: center;
     }
 
-    .reseaux a {
+    .media a {
         padding-right: 15px;
     }
 
@@ -196,4 +197,17 @@ nav a img {
         background-color: rgb(240, 240, 240);
         text-align: center;
         font-size: min(2vw, 28px);
+    }
+
+/* Section main accueil */
+
+    .thanks {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .thanks a img {
+        width: 150px;
+        height: auto;
     }
