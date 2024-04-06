@@ -1,0 +1,139 @@
+/*-------------------- HEADER --------------------*/
+/*---- nav ----*/
+.topNav {
+  background-color: #fcb900;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.topNav a {
+  margin: 0px 20px;
+  font-size: min(2vw, 24px);
+  font-weight: bold;
+  color: #401626;
+}
+
+/*---- menu ----*/
+
+.mainNav {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.mainNav a {
+  font-size: min(3vw, 32px);
+  padding-left: 10px;
+  color: #666666;
+}
+
+.mainNav a img {
+  width: auto;
+  height: auto;
+}
+
+/*-------------------- FOOTER --------------------*/
+
+/*---- panelContact (footer) ----*/
+.panelContact {
+  background-color: #fcb900;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 5% 0;
+  margin: 0 10%;
+  z-index: 10;
+  position: relative;
+  margin-bottom: -20px;
+  margin-top: 50px;
+}
+
+.panelContact p {
+  color: white;
+  font-size: min(2.5vw, 32px);
+  font-weight: 500;
+}
+
+.panelContact a button {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  color: #fcb900;
+  padding: 5px 30px;
+  font-size: min(2vw, 28px);
+  cursor: pointer;
+}
+
+.panelContact a button:hover {
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  font-size: min(2vw, 28px);
+}
+
+/*---- info (footer) ----*/
+.info {
+  background-color: #ee9322;
+  display: flex;
+}
+
+.colone {
+  flex: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.colone h2 {
+  color: white;
+  font-weight: 500;
+  font-size: min(3vw, 32px);
+  margin-bottom: 0.5em;
+}
+
+.colone p1 {
+  font-weight: 650;
+  font-size: min(2vw, 20px);
+}
+
+.colone p2 {
+  font-weight: 400;
+  font-size: min(2vw, 20px);
+}
+
+.colone span {
+  margin: 10px 0px;
+  line-height: 20px;
+}
+
+#element {
+  padding-top: 40px;
+}
+
+#GoogleMaps {
+  justify-content: center;
+  align-items: center;
+}
+
+.reseaux a {
+  padding-right: 15px;
+}
+
+/*---- legalNotice (footer) ----*/
+.legalNotice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #3383ff;
+  color: white;
+}
+
+.legalNotice a {
+  font-size: min(1.5vw, 24px);
+  color: white;
+  font-weight: 500;
+  padding: 0px 20px;
+}
