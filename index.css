@@ -141,10 +141,97 @@
 /*------- MAIN index -------*/
 
 /*---- Carousel ----*/
-.carousel img {
+
+.slider-container {
+  position: relative;
   width: 100%;
-  height: 807px;
-  margin-bottom: 80px;
+  overflow: hidden;
+  margin-bottom: 250px;
+}
+
+.slider-container .slider {
+  animation: slider-container 40s ease-in-out infinite;
+  display: flex;
+}
+
+.slider-container img {
+  flex-shrink: 0;
+  object-fit: fill;
+  width: 100%;
+  height: 78vh;
+}
+
+.slider-container::before,
+.slider-container::after {
+  position: absolute;
+  top: 0;
+  margin-top: 40vh;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;
+}
+
+.slider-container::before,
+.slider-container__prev {
+  left: 2rem;
+}
+
+.slider-container::after,
+.slider-container__next {
+  right: 2rem;
+}
+
+.slider-container::before,
+.slider-container::after {
+  content: '';
+  z-index: 1;
+  background-color: rgba(189, 189, 189, 0.7);
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  cursor: pointer;
+}
+
+.slider-container::before {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.slider-container::after {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+/*Le temps total(100%) ce base sur les sec du 
+.slider-container .slider {
+  animation: slider-container 50s ease-in-out infinite; ...}*/
+@keyframes slider-container {
+  0%,
+  20% { 
+    /* Première diapositive pendant 20% du temps total */
+    transform: translateX(0);
+  }
+  /*-- Ici une pause de 15% du temps total --*/
+  25%,
+  45% { 
+    /* Deuxième diapositive pendant 20% du temps total */
+    transform: translateX(-100%);
+  }
+  /*-- Ici une pause de 15% du temps total --*/
+  50%,
+  70% { 
+    /* Troisième diapositive pendant 20% du temps total */
+    transform: translateX(-200%);
+  }
+  /*-- Ici une pause de 25% du temps total --*/
+  75%,
+  100% { 
+    /* Retour à la première diapositive avec un effet smooth */
+    transform: translateX(-300%);
+  }
 }
 
 /*---- Style block left ----*/

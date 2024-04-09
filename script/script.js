@@ -1,4 +1,8 @@
-/*-------------------- HEADER --------------------*/
+
+
+
+
+  /*-------------------- HEADER --------------------*/
 
 const header = `    
 <nav>    
@@ -24,7 +28,6 @@ const header = `
     </div>   
 </nav>
 `
-
 document.getElementById('header').insertAdjacentHTML('beforebegin', header) 
 /* document.querySelector('header').insertAdjacentHTML('beforebegin', header) */
 
