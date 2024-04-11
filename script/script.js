@@ -1,7 +1,44 @@
+let slider = document.querySelector('.slider .list');
+let items = document.querySelectorAll('.slider .list .item');
+let next = document.getElementById('next');
+let prev = document.getElementById('prev');
+let dots = document.querySelectorAll('.slider .dots li');
+let bublleInfo = document.querySelectorAll('.slider .list item .bubbleInfo');
 
+let lengthItems = items.length - 1;
+let active = 0;
+next.onclick = function(){
+    active = active + 1 <= lengthItems ? active + 1 : 0;
+    reloadSlider();
+}
+prev.onclick = function(){
+    active = active - 1 >= 0 ? active - 1 : lengthItems;
+    reloadSlider();
+}
+let refreshInterval = setInterval(()=> {next.click()}, 100000000);
+function reloadSlider(){
+    slider.style.left = -items[active].offsetLeft + 'px';
+    // 
+    let last_active_dot = document.querySelector('.slider .dots li.active');
+    last_active_dot.classList.remove('active');
+    dots[active].classList.add('active');
 
+    clearInterval(refreshInterval);
+    refreshInterval = setInterval(()=> {next.click()}, 100000000);
+    // ici on change le temps de rafraichissement avec le setInterval 3000 (3sec)
 
+    
+}
 
+dots.forEach((li, key) => {
+    li.addEventListener('click', ()=>{
+         active = key;
+         reloadSlider();
+    })
+})
+
+//si active alors pas hidden
+//si pas active alors hidden
   /*-------------------- HEADER --------------------*/
 
 const header = `    

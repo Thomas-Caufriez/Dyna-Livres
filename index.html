@@ -28,7 +28,7 @@
                             <a href="/index.html">Accueil</a>
                             <a href="/pages/ecoles.html">Écoles</a>
                             <a href="/pages/associations.html">Associations</a>
-                            <a href="/pages/a_propos.html">A propos</a>
+                            <a href="/pages/a_propos.html">Dyna-Livres</a>
                             <a href="/pages/contact.html">Contact</a>
                         </ul>
                     </span>
@@ -39,15 +39,45 @@
 
         <main><!-- carrousel avec 3 images défilantes -->
   <!-- Horizontal -->
-            <section class="slider-container">
-                <div class="slider">
-                    <img src="./img/img1.png" alt="">
-                    <img src="./img/img2.png" alt="">
-                    <img src="./img/img3.png" alt="">
-                    <img src="./img/img1.png" alt="">
+            <section class="slider">
+                <div class="list">
+                    <div class="item">
+                        <img src="./img/img1.png" alt="">
+                        <div class="bubbleInfo">
+                            <p>Réveillez le goût de la lecture chez vos élèves.</p>
+                            <article>
+                                <a href="/pages/WIP.html"><button type="button" class="buttonCTA">Contactez-nous <img src="/img/playIcon.svg" alt="WIP"></button></a>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/img2.png" alt="">
+                        <div class="bubbleInfo" style="visibility: hidden;">
+                            <p>Stimulez l'apprentissage avec nos idées innovantes.</p>
+                            <article>
+                                <a href="/pages/WIP.html"><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/WIP.png" alt="WIP"></button></a>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/img3.png" alt="">
+                        <div class="bubbleInfo" style="visibility: hidden;">
+                            <p>Activités en collaboration avec nos partenaires.</p>
+                            <article>
+                                <a href="/pages/WIP.html"><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/WIP.png" alt="WIP"></button></a>
+                            </article>
+                        </div>
+                    </div>
                 </div>
-                <span class="slider-nav__prev"></span>
-                <span class="slider-nav__next"></span>
+                <div class="buttons">
+                    <button id="prev"><img src="./img/arrowLeft.svg" alt=""></button>
+                    <button id="next"><img src="./img/arrowRight.svg" alt=""></button>
+                </div>
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </section>
             <section class="blockLeft"> <!-- objectifs -->
                 <div>
@@ -55,25 +85,25 @@
                     <hr class="underline">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <article>
-                        <a href="/pages/a_propos.html#objectifs"><button type="button" class="buttonInfo">En savoir plus <img src="/img/WIP.png" alt="WIP"></button></a>
+                        <a href="/pages/a_propos.html#objectifs"><button type="button" class="buttonInfo">En savoir plus <img src="/img/playIcon.svg" alt="WIP"></button></a>
                     </article>
                 </div>      
                 <div>
-                    <img src="/img/WIP.png" alt="Work In Progress">
+                    <img src="/img/enfantLecture.png" alt="Work In Progress">
                 </div>
             </section>
 
             <section class="containerRight"> <!-- ecoles -->
                 <div class="blockRight">
                     <div>
-                        <img src="/img/WIP.png" alt="Work In Progress">
+                        <img src="/img/mainEnfant.png" alt="Work In Progress">
                     </div>
                     <div>
                         <h2>Écoles</h2>
                         <hr class="underline">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <article>
-                            <a href="/pages/ecoles.html"><button type="button" class="buttonInfo">En savoir plus <img src="/img/WIP.png" alt="WIP" width="20px" height="15px"></button></a>
+                            <a href="/pages/ecoles.html"><button type="button" class="buttonInfo">En savoir plus <img src="/img/playIcon.svg" alt="WIP" width="20px" height="15px"></button></a>
                         </article>
                     </div>
                 </div>
@@ -84,11 +114,11 @@
                     <hr class="underline">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <article>
-                        <a href="/pages/associations.html"><button type="button" class="buttonInfo">En savoir plus <img src="/img/WIP.png" alt="WIP"></button></a>
+                        <a href="/pages/associations.html"><button type="button" class="buttonInfo">En savoir plus <img src="/img/playIcon.svg" alt="WIP"></button></a>
                     </article>
                 </div>
                 <div>
-                    <img src="/img/WIP.png" alt="Work In Progress">
+                    <img src="/img/coashLecture.png" alt="Work In Progress">
                 </div>
             </section>
             <section> <!-- valeurs -->
@@ -114,26 +144,27 @@
             <section class="blockLeft"> <!-- description -->
                 <div>
                     <h2>Dyna Livres</h2>
+                    <hr class="underline">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <article>
-                        <a href="/pages/a_propos.html"><button type="button" class="buttonInfo">En savoir plus <img src="/img/WIP.png" alt="WIP"></button></a>
+                        <a href="/pages/a_propos.html"><button type="button" class="buttonInfo">En savoir plus <img src="/img/playIcon.svg" alt="WIP"></button></a>
                     </article>
                 </div>      
                 <div>
-                    <img src="/img/WIP.png" alt="Work In Progress" width="200px" height="200px">
+                    <img src="/img/enfantPeinture.png" alt="Work In Progress" width="200px" height="200px">
                 </div>
             </section>
             <section class="containerRight"> <!-- Newsletter -->
                 <div class="blockRight">
                     <div>
-                        <img src="/img/WIP.png" alt="Work In Progress" width="200px" height="200px">
+                        <img src="/img/enfantLecture.png" alt="enfant qui lit des livres" width="200px" height="200px">
                     </div>
                     <div>
                         <h2>Newsletter</h2>
                         <hr class="underline">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <article>
-                            <a href="/pages/WIP.html"><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/WIP.png" alt="WIP"></button></a>
+                            <a href="/pages/WIP.html"><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/playIcon.svg" alt="WIP"></button></a>
                         </article>
                     </div>      
                 </div>
@@ -155,8 +186,8 @@
                     </article>
                 </div>
                 <div class="info"> <!-- le contenu -->
-                    <div class="colone" id="GoogleMaps"> <!-- google maps -->
-                        <img src="/img/map.png" alt="Google Maps" width="200vw" height="auto">
+                    <div class="column" id="GoogleMaps"> <!-- google maps -->
+                        <img src="/img/googleMap.png" alt="Google Maps">
                     </div>
                     <div class="column" id="element"> <!-- texte -->
                         <span>
