@@ -3,7 +3,7 @@ let items = document.querySelectorAll('.slider .list .item');
 let next = document.getElementById('next');
 let prev = document.getElementById('prev');
 let dots = document.querySelectorAll('.slider .dots li');
-let bublleInfo = document.querySelectorAll('.slider .list item .bubbleInfo');
+/* let bublleInfo = document.querySelectorAll('.slider .list item .bubbleInfo'); */
 
 let lengthItems = items.length - 1;
 let active = 0;
@@ -19,9 +19,14 @@ let refreshInterval = setInterval(()=> {next.click()}, 100000000);
 function reloadSlider(){
     slider.style.left = -items[active].offsetLeft + 'px';
     // 
+    
     let last_active_dot = document.querySelector('.slider .dots li.active');
     last_active_dot.classList.remove('active');
     dots[active].classList.add('active');
+
+ /*    let active_bubbleInfo = document.querySelector('.slider .list item div.activeBubble');
+    active_bubbleInfo.style.visibility.remove('hidden');
+    active_bubbleInfo.style.visibility.add('visible'); */
 
     clearInterval(refreshInterval);
     refreshInterval = setInterval(()=> {next.click()}, 100000000);
