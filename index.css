@@ -11,7 +11,7 @@
 
 .topNav a {
   margin: 0px 20px;
-  font-size: min(2vw, 24px);
+  font-size: 24px;
   font-weight: bold;
   color: #401626;
 }
@@ -26,7 +26,7 @@
 }
 
 .mainNav a {
-  font-size: min(3vw, 32px);
+  font-size: 32px;
   padding-left: 10px;
   color: #666666;
 }
@@ -54,7 +54,7 @@
 
 .panelContact p {
   color: white;
-  font-size: min(2.5vw, 32px);
+  font-size: 32px;
   font-weight: 500;
 }
 
@@ -64,14 +64,14 @@
   border-radius: 3px;
   color: #fcb900;
   padding: 5px 30px;
-  font-size: min(2vw, 28px);
+  font-size: 28px;
   cursor: pointer;
 }
 
 .panelContact a button:hover {
   background-color: rgb(240, 240, 240);
   text-align: center;
-  font-size: min(2vw, 28px);
+  font-size: 28px;
 }
 
 /*---- info (footer) ----*/
@@ -235,6 +235,43 @@
   justify-content: end;
 }
 
+/*---- Style block center ----*/
+.blockCenter {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  margin: 80px 0px 200px 0px;
+  padding: 50px 0px;
+}
+
+.blockCenter div:first-child {
+  text-align: center;
+}
+
+.blockCenter div:last-child {
+  display: flex;
+  flex: 33%;
+  flex-direction: row;
+  text-align: center;
+}
+
+.blockCenter h2 {
+  font-size: 55px;
+  padding: 25px 0px;
+}
+
+.blockCenter p {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: justify;
+  padding: 25px 40px;
+}
+
+.blockCenter img {
+  width: 120px;
+  height: auto;
+}
+
 /*---- Logos greetings ----*/
 .thanks {
   display: flex;
@@ -281,9 +318,14 @@
   height: 15px;
 }
 
-/*---- Cute little bar ---*/
+/*---- little bars ---*/
 .underline {
   border-top: 3px solid #ee9322;
   margin: 30px 0px;
   width: 60%;
+}
+
+.underlineCenter {
+  border-top: 3px solid #ee9322;
+  width: 35%;
 }
