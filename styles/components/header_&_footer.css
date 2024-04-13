@@ -1,0 +1,150 @@
+/*_____________________________________________________________*/
+/*-------------------⇩-⇩ HEADER & FOOTER ⇩-⇩-------------------*/
+
+
+/*---------------⇩-⇩ HEADER ⇩-⇩---------------*/
+
+/*---- nav ----*/
+.topNav {
+    background-color: #fcb900;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .topNav a {
+    margin: 0px 20px;
+    padding-right: 90px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #401626;
+  }
+  
+  /*---- menu ----*/
+  
+  .mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+  }
+  
+  .mainNav a {
+    font-size: 32px;
+    font-weight: bolder;
+    padding-left: 50px;
+    color: #666666;
+  }
+  
+  .mainNav a img {
+    width: 141px;
+    height: 120px;
+    padding: 20px 0 20px 100px; 
+  }
+
+
+
+/*---------------⇩-⇩ FOOTER ⇩-⇩---------------*/
+
+/*---- panelContact (footer) ----*/
+.panelContact {
+    background-color: #fcb900;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 5% 0;
+    margin: 0 10%;
+    z-index: 10;
+    position: relative;
+    margin-bottom: -20px;
+    margin-top: 50px;
+  }
+  
+  .panelContact p {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .panelContact a button {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: #fcb900;
+    padding: 5px 30px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  .panelContact a button:hover {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  /*---- info (footer) ----*/
+  .info {
+    background-color: #E04F00;
+    display: flex;
+  }
+  
+  .column {
+    flex: 33%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .column h2 {
+    color: white;
+    font-weight: 500;
+    font-size: min(3vw, 32px);
+    margin-bottom: 0.5em;
+  }
+  
+  .column p1 {
+    font-weight: 650;
+    font-size: min(2vw, 20px);
+  }
+  
+  .column p2 {
+    font-weight: 400;
+    font-size: min(2vw, 20px);
+  }
+  
+  .column span {
+    margin: 10px 0px;
+    line-height: 20px;
+  }
+  
+  #element {
+    padding-top: 40px;
+  }
+  
+  #GoogleMaps {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .media a {
+    padding-right: 15px;
+  }
+  
+  /*---- legalNotice (footer) ----*/
+  .legalNotice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #3383ff;
+    color: white;
+  }
+  
+  .legalNotice a {
+    font-size: min(1.5vw, 24px);
+    color: white;
+    font-weight: 500;
+    padding: 0px 20px;
+  }
+

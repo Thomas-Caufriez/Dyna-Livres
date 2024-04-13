@@ -1,0 +1,130 @@
+/*______________________________________________________________*/
+/*-------------------⇩-⇩ STYLE BLOCK LEFT ⇩-⇩-------------------*/
+
+.blockLeft {
+  box-shadow: 0.5px 0.5px 50px rgb(215, 215, 215);
+  width: 90%;
+  margin: 40px 0px;
+  display: flex;
+  position: relative;
+  padding: 50px 0px;
+  margin: 80px 0px;
+}
+
+.blockLeft div:first-child {
+  margin-left: 5%;
+  width: 40%;
+}
+
+.blockLeft h2 {
+  font-size: 55px;
+}
+
+.blockLeft p {
+  color: #666666;
+  font-size: 24px;
+  text-align: justify;
+  line-height: 34px;
+}
+
+.blockLeft div:last-child img {
+  position: absolute;
+  width: 788px;
+  height: 536px;
+  bottom: 200px;
+  right: -11%;
+}
+
+.blockLeft article {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: end;
+}
+
+/*_______________________________________________________________*/
+/*-------------------⇩-⇩ STYLE BLOCK RIGHT ⇩-⇩-------------------*/
+
+.containerRight {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0px;
+}
+.blockRight {
+  width: 90%;
+  margin: 40px 0px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  padding: 50px 0px;
+  background-color: #d9d9d9;
+  align-self: end;
+}
+
+.blockRight div:last-child {
+  margin-right: 5%;
+  width: 40%;
+}
+
+.blockRight h2 {
+  font-size: 55px;
+}
+
+.blockRight p {
+  color: #666666;
+  font-size: 24px;
+  text-align: justify;
+  line-height: 34px;
+}
+
+.blockRight div:first-child img {
+  position: absolute;
+  width: 788px;
+  height: 536px;
+  bottom: 200px;
+  left: -11%;
+}
+
+.blockRight article {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: end;
+}
+
+/*________________________________________________________________*/
+/*-------------------⇩-⇩ STYLE BLOCK CENTER ⇩-⇩-------------------*/
+
+.blockCenter {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  margin: 80px 0px 200px 0px;
+  padding: 50px 0px;
+}
+
+.blockCenter div:first-child {
+  text-align: center;
+}
+
+.blockCenter div:last-child {
+  display: flex;
+  flex: 33%;
+  flex-direction: row;
+  text-align: center;
+}
+
+.blockCenter h2 {
+  font-size: 55px;
+  padding: 25px 0px;
+}
+
+.blockCenter p {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: justify;
+  padding: 25px 40px;
+}
+
+.blockCenter img {
+  width: 120px;
+  height: auto;
+}
