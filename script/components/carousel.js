@@ -1,5 +1,5 @@
-/*______________________________________________________________*/
-/*-------------------- CAROUSEL (Affichage) --------------------*/
+/*___________________________________________________________________*/
+/*----------------⇩-⇩ CAROUSEL (AFFICHAGE)-[BRUT] ⇩-⇩----------------*/
 
 const carousel = `    
 <section class="slider">
@@ -47,8 +47,9 @@ const carousel = `
 document.getElementById('carousel').insertAdjacentHTML('beforebegin', carousel);
 
 
-
-/*---- SETTINGS Carousel (la logique toujours après l'affichage !)----*/
+/*________________________________________________________________*/
+/*-------------------⇩-⇩ CAROUSEL (Logique) ⇩-⇩-------------------*/
+/*------- (la logique toujours après l'affichage [BRUT] !)--------*/
 
 let slider = document.querySelector('.slider .list');
 let items = document.querySelectorAll('.slider .list .item');

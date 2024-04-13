@@ -1,5 +1,5 @@
-/*________________________________________________*/
-/*-------------------- HEADER --------------------*/
+/*____________________________________________________*/
+/*-------------------⇩-⇩ HEADER ⇩-⇩-------------------*/
 
 const header = `    
 <nav>    
@@ -28,10 +28,8 @@ const header = `
 document.getElementById('header').insertAdjacentHTML('beforebegin', header);
 /* document.querySelector('header').insertAdjacentHTML('beforebegin', header) */
 
-
-
-/*________________________________________________*/
-/*-------------------- FOOTER --------------------*/
+/*_____________________________________________________*/
+/*-------------------⇩-⇩ FOOTER ⇩-⇩-------------------*/
 
 const footer = `    
 <section> <!-- tout le footer en orange -->
@@ -88,4 +86,5 @@ const footer = `
     </div>
 </section>
 `;
+
 document.getElementById('footer').insertAdjacentHTML('beforebegin', footer);
