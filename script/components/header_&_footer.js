@@ -5,8 +5,8 @@ const header = `
 <nav>    
 <div class="topNav"> 
     <ul>
-        <a href="/pages/WIP.html">Stages</a>
-        <a href="/pages/WIP.html">Newsletter</a>
+        <a href="/pages/en_developpement.html">Stages</a>
+        <a href="/pages/en_developpement.html">Newsletter</a>
     </ul>
 </div>
 <div class="mainNav">
@@ -74,15 +74,15 @@ const footer = `
         </div>
     </div>
     <div class="legalNotice">
-        <a href="/pages/WIP.html">Mentions Légales</a>
+        <a href="/pages/en_developpement.html">Mentions Légales</a>
         <p>|</p>
-        <a href="/pages/WIP.html">Politique des cookies</a>
+        <a href="/pages/en_developpement.html">Politique des cookies</a>
         <p>|</p>
-        <a href="/pages/WIP.html">Politique de Vie Privées</a>
+        <a href="/pages/en_developpement.html">Politique de Vie Privées</a>
         <p>|</p>
-        <a href="/pages/WIP.html">Disclaimer</a>
+        <a href="/pages/en_developpement.html">Disclaimer</a>
         <p>|</p>
-        <a href="/pages/WIP.html">CGU</a>
+        <a href="/pages/en_developpement.html">CGU</a>
     </div>
 </section>
 `;

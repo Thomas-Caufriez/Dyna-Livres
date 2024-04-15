@@ -25,7 +25,7 @@ function generateContent_center(ids) {
   ids.forEach((id) => {
     const data = dataMap__nameId_center[id];
     if (data) {
-      content += `
+      content +=`
         <div class="blockCenter">
             <div>
                 <h2>${data.title}</h2>
