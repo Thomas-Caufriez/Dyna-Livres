@@ -1,103 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dynalivres</title>
-<link href="/styles/global/reset.css" rel="stylesheet" type="text/css">
-<link href="/index.css" rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dyna Livres</title>
+        <link href="/styles/global/resetGlobal.css" rel="stylesheet" type="text/css">
+        <link href="/styles/global/styleGlobal.css" rel="stylesheet" type="text/css">
+        <link href="/styles/components/carousel.css" rel="stylesheet" type="text/css">
+        <link href="/styles/components/header_&_footer.css" rel="stylesheet" type="text/css">
+        <link href="/styles/components/allBlock.css" rel="stylesheet" type="text/css">
+        <link href="/index.css" rel="stylesheet" type="text/css">
+    </head>
 
-</head>
+    <body> 
+        <header>
+            <!-- Script header & footer => header -->
+            <span id="header"></span>
+        </header>
 
-<body>
+        <main>
+            <section> <!-- coordonnées -->
+                <h2>Coordonnées</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="/images/WIP.png" alt="Work in progress" width="200px" height="200px"> <!-- google map -->
+            </section>
+            <section id="formulaire"> <!-- formulaire -->
+                <h2>Formulaire de contact</h2>
+                <form> <!-- formulaire de contact, à travailler -->
+                    <section>
+                        <label for="fname">Prénom:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Nom:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                    </section>
+                    <label for="inc">Entreprise:</label><br>
+                    <input type="text" id="inc" name="inc"><br>
+                    <label for="inc">Addresse:</label><br>
+                    <input type="text" id="inc" name="inc"><br>
+                    <label for="mail">E-mail:</label><br>
+                    <input type="text" id="mail" name="mail"><br>
+                    <label for="nbr">Numérode téléphone:</label><br>
+                    <input type="text" id="nbr" name="nbr"><br>
+                    <label for="sector">Secteur de l'entreprise:</label><br>
+                    <input type="text" id="sector" name="sector"><br>
+                    <label for="txt">Zone de texte:</label><br>
+                    <input type="text" id="txt" name="txt"><br>
+                </form>
+            </section>
+            <section> <!-- calendrier -->
+                <h2>Calendrier des disponibilités</h2> <!-- je sais même plus si on devait le garder ça -->
+            </section>
+            <section> <!-- newsletter -->
+                <h2>Newsletter</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="/pages/en_developpement.html"><button type="button">Inscription Newsletter</button></a>
+            </section>
+            <section> <!-- dons -->
+                <h2>Nous soutenir</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="/pages/en_developpement.html"><button type="button">Faire un don</button></a>
+            </section>
+            
+            <section class="thanks">
+                <a href="https://www.provincedeliege.be/fr/culture"><img src="/img/logoProvinceLiegeCulture.png" alt="Logo Province de Liege Culture"></a>
+                <a href="https://cheneeculture.be/"><img src="/img/logoCentreCulturelChenee.png" alt="Logo Centre Culturel Chênée"></a>
+                <a href="https://www.provincedeliege.be/social"><img src="/img/logoProvinceLiegeSocial.png" alt="Logo Province de Liege Social"></a>
+            </section>
+        </main>
 
-    <section class="top"> <!-- top menu -->
-        <ul>
-            <a href="/pages/WIP.html">Stages</a>
-            <a href="/pages/WIP.html">Newsletter</a>
-        </ul>
-    </section>
 
-    <header>
-        <nav>
-            <span>
-                <a href="/index.html"><img src="/images/Logo.png" alt="Logo de Dynalivres" width="150px" height="auto"></a>
-            </span>
-            <span>
-                <ul>
-                    <a href="/index.html">Accueil</a>
-                    <a href="/pages/ecoles.html">Écoles</a>
-                    <a href="/pages/associations.html">Associations</a>
-                    <a href="/pages/a_propos.html">A propos</a>
-                    <a href="/pages/contact.html">Contact</a>
-                </ul>
-            </span>
-        </nav>
-    </header>
+        <footer>
+            <!-- script => header & footer -->
+            <span id="footer"></span>
+        </footer>
 
-
-    <main>
-        <section> <!-- coordonnées -->
-            <h2>Coordonnées</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="/images/WIP.png" alt="Work in progress" width="200px" height="200px"> <!-- google map -->
-        </section>
-        <section id="formulaire"> <!-- formulaire -->
-            <h2>Formulaire de contact</h2>
-            <form> <!-- formulaire de contact, à travailler -->
-                <section>
-                    <label for="fname">Prénom:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Nom:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
-                </section>
-                <label for="inc">Entreprise:</label><br>
-                <input type="text" id="inc" name="inc"><br>
-                <label for="inc">Addresse:</label><br>
-                <input type="text" id="inc" name="inc"><br>
-                <label for="mail">E-mail:</label><br>
-                <input type="text" id="mail" name="mail"><br>
-                <label for="nbr">Numérode téléphone:</label><br>
-                <input type="text" id="nbr" name="nbr"><br>
-                <label for="sector">Secteur de l'entreprise:</label><br>
-                <input type="text" id="sector" name="sector"><br>
-                <label for="txt">Zone de texte:</label><br>
-                <input type="text" id="txt" name="txt"><br>
-            </form>
-        </section>
-        <section> <!-- calendrier -->
-            <h2>Calendrier des disponibilités</h2> <!-- je sais même plus si on devait le garder ça -->
-        </section>
-        <section> <!-- newsletter -->
-            <h2>Newsletter</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="/pages/WIP.html"><button type="button">Inscription Newsletter</button></a>
-        </section>
-        <section> <!-- dons -->
-            <h2>Nous soutenir</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="/pages/WIP.html"><button type="button">Faire un don</button></a>
-        </section>
-    </main>
-
-    <footer>
-        <section>
-            <ul>
-                <a href="/pages/WIP.html">Coordonnées</a>
-                <a href="/pages/WIP.html">Carte d'accès</a>
-                <a href="/pages/WIP.html">Horaires</a>
-                <a href="/pages/WIP.html">Newsletter</a>
-                <a href="/pages/WIP.html">Réseaux</a>
-            </ul>
-        </section>
-        <section>
-            <ul>
-                <a href="/pages/WIP.html">Mentions Légales</a>
-                <a href="/pages/WIP.html">Politique des cookies</a>
-                <a href="/pages/WIP.html">Politique de Vie Privée</a>
-                <a href="/pages/WIP.html">Disclaimer</a>
-                <a href="/pages/WIP.html">CGU</a>
-            </ul>
-        </section>
-    </footer>
-</body>
+        
+        <script src="/script/components/header_&_footer.js"></script>
+        <script src="/script/components/carousel.js"></script>
+        <script src="/script/components/blockLeft.js"></script>
+        <script src="/script/components/blockCenter.js"></script>
+        <script src="/script/components/blockRight.js"></script>
+    </body>
+</html>

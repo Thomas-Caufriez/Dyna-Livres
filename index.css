@@ -13,3 +13,14 @@
   height: 250px;
   object-fit: contain;
 }
+
+.oops {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline #FCB900 5px;
+  line-height: 70px;
+  float: left;
+  width: 49%;
+  padding: 100px 0px;
+}
