@@ -24,3 +24,49 @@
   width: 49%;
   padding: 100px 0px;
 }
+
+/*------ Ecoles/Associations ------*/
+/*---- collaboration ----*/
+.collaboration {
+  text-align: center;
+  margin: 80px;
+  box-shadow: 0px 0px 10px rgb(141, 140, 140);
+}
+
+.collaboration h2 {
+  font-size: 55px;
+  margin: 30px 0px;
+  font-weight: 600;
+}
+
+.collaboration p {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 30px 160px;
+  padding-bottom: 30px;
+}
+
+.collaboration img {
+  width: 788px;
+  height: auto;
+  box-shadow: 0px 25px 20px -20px rgb(175, 175, 175);;
+}
+
+/*---- activitées ----*/
+.activities {
+  margin: 80px;
+  text-align: center;
+}
+
+.activities img {
+  width: 533;
+  height: auto;
+  margin: 20px;
+}
+
+.activities h2 {
+  font-size: 55px;
+  margin: 30px 0px;
+  font-weight: 600;
+  text-align: justify;
+}
