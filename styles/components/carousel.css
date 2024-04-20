@@ -1,23 +1,20 @@
 /*______________________________________________________*/
 /*-------------------⇩-⇩ CAROUSEL ⇩-⇩-------------------*/
 
-.slider{
-    /* width: 1300px; */
-    max-width: 1920px;
-    height: 80vh;
-    /* margin: auto; */
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 250px;
+.slider {
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 250px;
 }
-.slider .list{
-    position: absolute;
-    /*  width: max-content; */
-    height: 100%;
-    left: 0;
-    top: 0;
-    display: flex;
-    transition: 1s;
+
+.slider .list {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  transition: 1s;
 }
 
 .slider .list .item {
@@ -25,24 +22,24 @@
 }
 /*---- Carousel - Bulle d'information ----*/
 .slider .list .item .bubbleInfo {
-    visibility: visible;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    position: absolute;
-    top: 8vh;
-    left: 8vw;
-    width: 560px;
-    border-radius: 10px;
-    padding: 40px 30px;
-    background-color: rgba(189, 189, 189, 0.7);
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: absolute;
+  top: 8vh;
+  left: 8vw;
+  width: 560px;
+  border-radius: 10px;
+  padding: 40px 30px;
+  background-color: rgba(189, 189, 189, 0.7);
 }
 
 .slider .list .item .bubbleInfo p {
-    color: white;
-    font-weight: bolder;
-    font-size: 36px;
-    padding-bottom: 40px;
+  color: white;
+  font-weight: bolder;
+  font-size: 36px;
+  padding-bottom: 40px;
 }
 .slider .list .item .bubbleInfo .buttonCTA {
   background-color: #e04f00;
@@ -59,59 +56,58 @@
   height: 15px;
 }
 
-.slider .list img{
-    width: 1920px; /*1300px*/
-    /* max-width: 1920px; */
-    height: 100%;
-    object-fit: fill;
+.slider .list img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*---- Carousel - fléche directionelle Gauche/Droite ----*/
-.slider .buttons{
-    position: absolute;
-    top: 45%;
-    left: 5%;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
+.slider .buttons {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
-.slider .buttons button{
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    background-color: rgba(189, 189, 189, 0.7);
-    color: #fff;
-    border: none;
-    font-family: monospace;
-    font-weight: bold;
+.slider .buttons button {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: rgba(189, 189, 189, 0.7);
+  color: #fff;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 /*---- Carousel - navigation bootton dynamique ----*/
-.slider .dots{
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    color: #fff;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+.slider .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
-.slider .dots li{
-    list-style: none;
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    margin: 10px;
-    border-radius: 20px;
-    transition: 0.5s;
+.slider .dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
 }
-.slider .dots li.active{
-    width: 30px;
+.slider .dots li.active {
+  width: 30px;
 }
-@media screen and (max-width: 768px){
-    .slider{
-        height: 400px;
-    }
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 400px;
+  }
 }

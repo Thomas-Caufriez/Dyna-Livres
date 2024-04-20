@@ -18,7 +18,7 @@
   font-size: 64px;
   font-weight: bold;
   text-align: center;
-  text-decoration: underline #FCB900 5px;
+  text-decoration: underline #fcb900 5px;
   line-height: 70px;
   float: left;
   width: 49%;
@@ -27,31 +27,49 @@
 
 /*------ Ecoles/Associations ------*/
 /*---- collaboration ----*/
-.collaboration {
+
+.blockTop {
   text-align: center;
-  margin: 80px;
+  width: 920px;
+  margin: 200px auto; /* à modifier (200px) une fois le figma fini*/
   box-shadow: 0px 0px 10px rgb(141, 140, 140);
 }
 
-.collaboration h2 {
-  font-size: 55px;
-  margin: 30px 0px;
+.blockTop .blockTopImg {
+  position: relative;
+  width: 788px;
+  margin: auto;
+  box-shadow: 0px 25px 20px -20px rgb(175, 175, 175);
+  padding-bottom: 580px;
+}
+
+.blockTopImg img {
+  position: absolute;
+  width: 788px;
+  top: -250px;
+  left: 0;
+  right: 0;
+}
+
+.blockTopText h2 {
+  font-size: 36px;
+  margin: 50px 0 30px 0;
   font-weight: 600;
 }
 
-.collaboration p {
-  font-size: 24px;
+.blockTopText .underlineCenter {
+  width: 55%;
+  margin-bottom: 30px;
+}
+
+ .blockTopText p {
+  font-size: 18px;
   line-height: 34px;
   margin: 30px 160px;
   padding-bottom: 30px;
   text-align: justify;
 }
 
-.collaboration img {
-  width: 788px;
-  height: auto;
-  box-shadow: 0px 25px 20px -20px rgb(175, 175, 175);;
-}
 
 /*---- activitées ----*/
 .activities {
@@ -59,15 +77,23 @@
   text-align: center;
 }
 
-.activities img {
-  width: 533;
-  height: auto;
-  margin: 20px;
-}
-
 .activities h2 {
-  font-size: 55px;
-  margin: 30px 0px;
+  font-size: 36px;
+  margin: 50px 0px;
+  padding: 50px 80px;
   font-weight: 600;
   text-align: justify;
+}
+
+.activitiesBlockImg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px 68px;
+}
+
+.activities .activitiesBlockImg img {
+  width: 533px;
+  height: auto;
+  margin: 20px;
 }
