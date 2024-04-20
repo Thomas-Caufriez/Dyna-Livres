@@ -41,7 +41,7 @@ const footer = `
     </div>
     <div class="info"> <!-- le contenu -->
         <div class="column" id="GoogleMaps"> <!-- google maps -->
-            <img src="/img/map.png" alt="Google Maps">
+            <img src="/img/Maps.png" alt="Google Maps">
         </div>
         <div class="column" id="element"> <!-- texte -->
             <span>
@@ -58,12 +58,12 @@ const footer = `
         </div>
         <div class="column" id="element">
             <span>
-                <h2>Horaires</h2>
+                <h2 class="h2Special">Horaires</h2>
                 <p2>Sur rendez-vous uniquement</p2>
             </span>
             <span>
                 <h2>Newsletter</h2>
-                <p2>Inscrivez-vous à notre<br>Newsletter pour des<br>recommandations de lecture</p2>
+                <p2>Inscrivez-vous à notre Newsletter<br> pour des recommandations de lecture</p2>
                 <br>
             </span>
             <span class="media">

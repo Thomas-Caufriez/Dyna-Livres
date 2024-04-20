@@ -1,18 +1,8 @@
 /*____________________________________________________*/
-/*----------------⇩-⇩ BLOCK CENTER ⇩-⇩----------------*/
+/*----------------⇩-⇩ BLOCK TOP ⇩-⇩----------------*/
 
 const dataValeurs = {
-    title:'Nos valeurs',
-    text:'.',
-  
-    subtitle_n1:'Social',
-    subText_n1:'.',
-  
-    subtitle_n2:'Écologie',
-    subText_n2:'.',
-  
-    subtitle_n3:'Humanitaire',
-    subText_n3:'.',
+
   };
   
   const dataMap__nameId_center = {
@@ -26,30 +16,7 @@ const dataValeurs = {
       const data = dataMap__nameId_center[id];
       if (data) {
         content +=`
-          <div class="blockCenter">
-              <div>
-                  <h2>${data.title}</h2>
-                  <hr class="underlineCenter">
-                  <p>${data.text}</p>
-              </div>
-              <div>
-                  <span>
-                      <img src="/img/social.png" alt="Icone social">
-                      <h2>${data.subtitle_n1}</h2>
-                      <p>${data.subText_n1}</p>
-                  </span>
-                  <span>
-                      <img src="/img/ecologique.png" alt="Icone ecologique">
-                      <h2>${data.subtitle_n2}</h2>
-                      <p>${data.subText_n2}</p>
-                  </span>
-                  <span>
-                      <img src="/img/humanitaire.png" alt="Icone humanitaire">
-                      <h2>${data.subtitle_n3}</h2>
-                      <p>${data.subText_n3}</p>
-                  </span>
-              </div>
-          </div>
+          /* code à mettre une fois le figma et HTML /CSS fini */
         `;
       }
     });

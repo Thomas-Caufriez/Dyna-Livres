@@ -47,31 +47,39 @@
 
 /*---- panelContact (footer) ----*/
 .panelContact {
-  background-color: #fcb900;
-  display: flex;
-  justify-content: space-evenly;
-  border-radius: 10px;
-  padding: 5% 0;
-  margin: 0 10%;
-  z-index: 10;
   position: relative;
-  margin-bottom: -20px;
-  margin-top: 50px;
+  z-index: 10;
+  display: flex;
+  width: 852px;
+  height: 136px;
+  justify-content: space-evenly;
+  padding: 0 25px;
+  border-radius: 10px;
+  margin: 50px auto -30px auto;
+  background-color: #fcb900;
 }
 
 .panelContact p {
+  margin: auto;
   color: white;
-  font-size: 32px;
+  font-size: 19px;
   font-weight: 500;
+}
+
+.panelContact article {
+  margin: auto;
+  padding: auto;
+  text-align: center;
 }
 
 .panelContact a button {
   background-color: white;
   border: none;
-  border-radius: 3px;
+  border-radius: 8px;
   color: #fcb900;
-  padding: 5px 30px;
-  font-size: 28px;
+  padding: 13px 40px;
+  font-size: 20px;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -84,6 +92,7 @@
 /*---- info (footer) ----*/
 .info {
   background-color: #ee9322;
+  height: 364px;
   display: flex;
 }
 
@@ -91,23 +100,30 @@
   flex: 33%;
   display: flex;
   flex-direction: column;
+  margin: 20px 0 0;
 }
 
 .column h2 {
   color: white;
   font-weight: 500;
-  font-size: min(3vw, 32px);
-  margin-bottom: 0.5em;
+  font-size: 19px;
+  margin-bottom: 1em;
+
+}
+
+.column .h2Special {
+  margin-bottom: 1.5em;
 }
 
 .column p1 {
-  font-weight: 650;
-  font-size: min(2vw, 20px);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 3rem;
 }
 
 .column p2 {
   font-weight: 400;
-  font-size: min(2vw, 20px);
+  font-size: 16px;
 }
 
 .column span {
@@ -120,8 +136,20 @@
 }
 
 #GoogleMaps {
-  text-align: center;
+  margin: auto 170px auto 80px;
+  width: 300px;
+  height: 169px;
   align-items: center;
+}
+
+#GoogleMaps img{
+  width: 300px;
+  height: 169px;
+  object-fit: cover;
+}
+
+.media {
+  padding-top: 18px;
 }
 
 .media a {

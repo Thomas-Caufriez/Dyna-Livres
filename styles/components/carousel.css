@@ -20,6 +20,7 @@
 .slider .list .item {
   position: relative;
 }
+
 /*---- Carousel - Bulle d'information ----*/
 .slider .list .item .bubbleInfo {
   visibility: visible;
@@ -106,6 +107,7 @@
 .slider .dots li.active {
   width: 30px;
 }
+
 @media screen and (max-width: 768px) {
   .slider {
     height: 400px;
