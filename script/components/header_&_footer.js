@@ -39,50 +39,59 @@ const footer = `
             <a href="/pages/contact.html"><button type="button">Contactez-nous</button></a>
         </article>
     </div>
-    <div class="info"> <!-- le contenu -->
-        <div class="column" id="GoogleMaps"> <!-- google maps -->
-            <img src="/img/Maps.png" alt="Google Maps">
+    <div class="block_infoUnderlineFooter"> <!-- le contenu -->
+        <div class="blockInfo"> <!-- le contenu -->
+            <div class="column" id="GoogleMaps"> <!-- google maps -->
+                <img src="/img/Maps.png" alt="Google Maps">
+            </div>
+            <div class="column" id="element"> <!-- texte -->
+                <span>
+                    <h2>Coordonnées</h2>
+                    <p1>Siège social :</p1>
+                    <br>
+                    <p2>Rue Joseph Willem, 27<br>4030 LIÈGE</p2>
+                </span>
+                <span>
+                    <p1>Siège d'activité :</p1>
+                    <br>
+                    <p2>Rue des Ecoles, 5<br>4031 ANGLEUR</p2>
+                </span>
+            </div>
+            <div class="column" id="element">
+                <span>
+                    <h2 class="h2Special">Horaires</h2>
+                    <p2>Sur rendez-vous uniquement</p2>
+                </span>
+                <span>
+                    <h2>Newsletter</h2>
+                    <p2>Inscrivez-vous à notre Newsletter<br> pour des recommandations de lecture</p2>
+                    <br>
+                </span>
+                <span class="media">
+                    <a href=""><img src="/img/Instagram icon.png" alt="Logo d'Instagram"></a>
+                    <a href=""><img src="/img/Facebook icon.png" alt="Logo de Facebook"></a>
+                    <a href=""><img src="/img/Linkedin icon.png" alt="Logo de Linkedin"></a>
+                </span>
+            </div>
         </div>
-        <div class="column" id="element"> <!-- texte -->
-            <span>
-                <h2>Coordonnées</h2>
-                <p1>Siège social :</p1>
-                <br>
-                <p2>Rue Joseph Willem, 27<br>4030 LIÈGE</p2>
-            </span>
-            <span>
-                <p1>Siège d'activité :</p1>
-                <br>
-                <p2>Rue des Ecoles, 5<br>4031 ANGLEUR</p2>
-            </span>
-        </div>
-        <div class="column" id="element">
-            <span>
-                <h2 class="h2Special">Horaires</h2>
-                <p2>Sur rendez-vous uniquement</p2>
-            </span>
-            <span>
-                <h2>Newsletter</h2>
-                <p2>Inscrivez-vous à notre Newsletter<br> pour des recommandations de lecture</p2>
-                <br>
-            </span>
-            <span class="media">
-                <a href=""><img src="/img/Instagram icon.png" alt="Logo d'Instagram"></a>
-                <a href=""><img src="/img/Facebook icon.png" alt="Logo de Facebook"></a>
-                <a href=""><img src="/img/Linkedin icon.png" alt="Logo de Linkedin"></a>
-            </span>
+        <div class="blockUnderlineFooter">
+            <hr class="underlineFooter">
+            <p> © 2024 | Dyna Livres Association </p>
         </div>
     </div>
-    <div class="legalNotice">
-        <a href="/pages/en_developpement.html">Mentions Légales</a>
-        <p>|</p>
-        <a href="/pages/en_developpement.html">Politique des cookies</a>
-        <p>|</p>
-        <a href="/pages/en_developpement.html">Politique de Vie Privées</a>
-        <p>|</p>
-        <a href="/pages/en_developpement.html">Disclaimer</a>
-        <p>|</p>
-        <a href="/pages/en_developpement.html">CGU</a>
+
+    </div>
+        <div class="legalNotice">
+            <a href="/pages/en_developpement.html">Mentions Légales</a>
+            <p>|</p>
+            <a href="/pages/en_developpement.html">Politique des cookies</a>
+            <p>|</p>
+            <a href="/pages/en_developpement.html">Politique de Vie Privées</a>
+            <p>|</p>
+            <a href="/pages/en_developpement.html">Disclaimer</a>
+            <p>|</p>
+            <a href="/pages/en_developpement.html">CGU</a>
+        </div>
     </div>
 </section>
 `;

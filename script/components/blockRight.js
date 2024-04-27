@@ -28,8 +28,7 @@ function generateContent_right(ids) {
     const data = dataMap__nameId_right[id];
     if (data) {
       content += `
-        <div id="${id}" class="containerRight"> 
-            <div class="blockRight">
+            <div id="${id}" class="blockRight">
                 <div>                        
                     <img src=${data.src} alt=${data.alt}>
                 </div>
@@ -43,7 +42,6 @@ function generateContent_right(ids) {
                     </article>                    
                 </div>
             </div>
-        </div>
     `;
     }
   });
