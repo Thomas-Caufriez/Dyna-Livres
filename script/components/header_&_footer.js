@@ -3,28 +3,54 @@
 
 const header = `    
 <nav>    
-<div class="topNav"> 
-    <ul>
-        <a href="/pages/en_developpement.html">Stages</a>
-        <a href="/pages/en_developpement.html">Newsletter</a>
+<div class="topNav stroke"> 
+    <ul class="ulTopNav">
+        <li>
+            <a href="/pages/en_developpement.html"><img class="icon" src="/img/VectorStages.svg" alt="icon stages">Stages 
+            </a>
+        </li>
+        <li>
+            <a href="/pages/en_developpement.html"><img class="icon" src="/img/VectorNewsletter.svg" alt="icon Newsletter">Newsletter
+            </a>
+        </li>
     </ul>
 </div>
-<div class="mainNav">
+<div class="mainNav stroke">
     <span>
-        <a href="/index.html"><img src="/img/Logo.svg" alt="Logo de Dynalivres"></a>
+        <a href="/index.html"><img src="/img/Dyna-LivresLogoNEW.svg" alt="Logo de Dynalivres"></a>
     </span>
     <span>
-        <ul>
-            <a href="/index.html">Accueil</a>
-            <a href="/pages/ecoles.html">Écoles</a>
-            <a href="/pages/associations.html">Associations</a>
-            <a href="/pages/a_propos.html">Dyna-Livres</a>
-            <a href="/pages/contact.html">Contact</a>
+        <ul class="ulMainNav">
+            <li>
+                <img class="icon" src="/img/VectorAccueil.svg" alt="icon accueil">
+                <a href="/index.html">Accueil</a>
+            </li>
+
+            <li>
+                <img class="icon" src="/img/VectorEcole.svg" alt="icon ecoles">
+                <a href="/pages/ecoles.html">Écoles</a>
+            </li>
+
+            <li>
+                <img class="icon" src="/img/VectorAssociation.svg" alt="icon association">
+                <a href="/pages/associations.html">Associations</a>
+            </li>
+
+            <li>
+                <img class="icon" src="/img/VectorDynalivre.svg" alt="icon Dynalivre">
+                <a href="/pages/a_propos.html">Dyna-Livres</a>
+            </li>
+
+            <li>
+                <img class="icon" src="/img/VectorContact.svg" alt="icon contact">
+                <a href="/pages/contact.html">Contact</a>
+            </li>
         </ul>
     </span>
 </div>
 </nav>
 `;
+
 document.getElementById('header').insertAdjacentHTML('beforebegin', header);
 /* document.querySelector('header').insertAdjacentHTML('beforebegin', header) */
 
