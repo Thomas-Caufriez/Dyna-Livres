@@ -29,12 +29,23 @@ const dataDyna = {
   src: '/img/enfantsPeignantMur.png',
   alt: 'Enfants peignant sur un mur',
 };
+const dataStages = {
+  title: 'Stages',
+  text: `Etudiant(e) passionné(e) de lecture ? Dyna-Livres recherche des stagiaires pour animer des ateliers auprès d'enfants et d'adultes.
+  Développez vos compétences pédagogiques et artistiques, contribuez à l'épanouissement personnel des bénéficiaires.
+  Stage enrichissant et expérience unique !
+  Dyna-Livres, donnez du sens à vos études !`,
+  a_href: '/pages/associations.html',
+  src: '/img/enfantsPeignantMur.png',
+  alt: 'Enfants peignant sur un mur',
+};
 
 /*id "objectifs_blockLeft" & "associations_blockLeft" & "... etc" venant de html pour être appeler et utiliser dans le js*/
 const dataMap__nameId_left = {
   objectifs_blockLeft: dataObjectif,
   associations_blockLeft: dataAssos,
   dynalivres_blockLeft: dataDyna,
+  stages_blockLeft: dataStages,
 };
 
 function generateContent_left(ids) {

@@ -58,6 +58,10 @@
   font-weight: 600;
 }
 
+.titleBlockTop {
+  padding-top: 40px;
+}
+
 .blockTopText .underlineCenter {
   width: 55%;
   margin-bottom: 30px;

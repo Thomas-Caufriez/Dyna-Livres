@@ -38,7 +38,7 @@ const header = `
 
             <li>
                 <img class="icon" src="/img/VectorDynalivre.svg" alt="icon Dynalivre">
-                <a href="/pages/a_propos.html">Dyna-Livres</a>
+                <a href="/pages/dynaLivres.html">Dyna-Livres</a>
             </li>
 
             <li>
@@ -57,7 +57,12 @@ document.getElementById('header').insertAdjacentHTML('beforebegin', header);
 /*_____________________________________________________*/
 /*-------------------⇩-⇩ FOOTER ⇩-⇩-------------------*/
 
-const footer = `    
+const footer = `
+<section class="thanks">
+    <a href="https://www.provincedeliege.be/fr/culture"><img src="/img/logoProvinceLiegeCulture.png" alt="Logo Province de Liege Culture"></a>
+    <a href="https://cheneeculture.be/"><img src="/img/logoCentreCulturelChenee.png" alt="Logo Centre Culturel Chênée"></a>
+    <a href="https://www.provincedeliege.be/social"><img src="/img/logoProvinceLiegeSocial.png" alt="Logo Province de Liege Social"></a>
+</section>    
 <section> <!-- tout le footer en orange -->
     <div class="panelContact"> <!-- truc en jaune chiant -->
         <p>Vous aussi, faites appel à Dyna !</p>
