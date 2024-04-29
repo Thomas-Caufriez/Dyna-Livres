@@ -1,10 +1,38 @@
 /*_______________________________________________________________*/
+/*-------------------⇩-⇩ STYLE ALL BLOCK ⇩-⇩-------------------*/
+
+.blockTop, .blockLeft, .blockRight {
+  margin: 250px 0 0;
+  padding: 50px 0;
+}
+
+.blockCenter {
+  margin: 150px 0 0;
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 1890px) {
+  .blockTop, .blockLeft, .blockRight {
+    margin: 350px 0 0;
+  }
+  
+  .blockCenter {
+    margin: 150px 0 0;
+  }
+
+  .blockLeft div:first-child, .blockRight div:last-child {
+    width: 55% !important;
+  }
+}
+
+/*______________________________________________________________*/
 /*-------------------⇩-⇩ STYLE BLOCK TOP ⇩-⇩-------------------*/
 
 .blockTop {
   text-align: center;
   width: 920px;
-  margin: 200px auto; /* à modifier (200px) une fois le figma fini*/
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 0px 0px 10px rgb(141, 140, 140);
 }
 
@@ -13,21 +41,25 @@
   width: 788px;
   margin: auto;
   box-shadow: 0px 25px 20px -20px rgb(175, 175, 175);
-  padding-bottom: 580px;
+  padding-bottom: 387px;
 }
 
 .blockTopImg img {
   position: absolute;
   width: 788px;
-  top: -250px;
+  top: -150px;
   left: 0;
   right: 0;
 }
 
 .blockTopText h2 {
   font-size: 36px;
-  margin: 50px 0 30px 0;
+  margin-bottom: 30px;
   font-weight: 600;
+}
+
+.titleBlockTop {
+  padding-top: 40px;
 }
 
 .blockTopText .underlineCenter {
@@ -50,11 +82,8 @@
 .blockLeft {
   box-shadow: 0.5px 0.5px 50px rgb(215, 215, 215);
   width: 90%;
-  margin: 40px 0px;
   display: flex;
   position: relative;
-  padding: 50px 0px;
-  margin: 80px 0px;
 }
 
 .blockLeft div:first-child {
@@ -90,18 +119,12 @@
 /*_______________________________________________________________*/
 /*-------------------⇩-⇩ STYLE BLOCK RIGHT ⇩-⇩-------------------*/
 
-.containerRight {
-  display: flex;
-  flex-direction: column;
-  margin: 80px 0px;
-}
 .blockRight {
+  margin-left: auto;
   width: 90%;
-  margin: 40px 0px;
   display: flex;
   justify-content: end;
   position: relative;
-  padding: 50px 0px;
   background-color: #d9d9d9;
   align-self: end;
 }
@@ -143,8 +166,6 @@
   display: flex;
   flex-direction: column;
   background-color: #e6e6e6;
-  margin: 80px 0px 200px 0px;
-  padding: 50px 0px;
 }
 
 .blockCenter div:first-child {
@@ -160,7 +181,7 @@
 
 .blockCenter h2 {
   font-size: 55px;
-  padding: 25px 0px;
+  padding: 10px 0px 25px;
 }
 
 .blockCenter p {

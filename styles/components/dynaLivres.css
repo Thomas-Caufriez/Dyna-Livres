@@ -1,0 +1,44 @@
+.blockTeam {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.team {
+    width: 64%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.cardTeam img {
+    width: 220px;
+    height: 220px;
+    padding-bottom: 80px;
+}
+
+.cardTeam h2 {
+   font-size: 36px;
+   font-weight: bold;
+   padding-bottom: 30px;
+}
+
+.cardTeam .card a button {
+   height: 45px;
+   padding: 5px 25px;
+   border-radius: 40px;
+   border: 2px solid #E04F00;
+   background: none;
+   margin-top: 30px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #E04F00;
+}
+
+.cardTeam p {
+   font-size: 18px;
+   line-height: 25px;
+   font-weight: bold;
+}

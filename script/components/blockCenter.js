@@ -3,16 +3,16 @@
 
 const dataValeurs = {
   title:'Nos valeurs',
-  text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  text:`Dyna-Livres, une ASBL implantée à Liège depuis 1997, s'est donnée pour mission de promouvoir la lecture auprès d'un public large et diversifié, en particulier les enfants, les adolescents et les adultes. Au fil des années, l'association a développé un riche panel d'activités socioculturelles qui visent à éveiller la curiosité intellectuelle et le goût de la lecture dès le plus jeune âge. Développer l'imaginaire et la créativité grâce à des ateliers ludiques et stimulants. Favoriser l'expression individuelle et la confiance en soi à travers la pratique artistique. Sensibiliser aux enjeux sociétaux et environnementaux par le biais de thématiques citoyennes. Lutter contre les inégalités et l'exclusion en offrant un accès démocratique à la culture`,
 
   subtitle_n1:'Social',
-  subText_n1:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  subText_n1:`Dyna-Livres lutte contre les inégalités en rendant la lecture accessible à tous, notamment aux publics fragilisés.`,
 
   subtitle_n2:'Écologie',
-  subText_n2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  subText_n2:`L'association promeut une lecture responsable en sensibilisant à la protection de l'environnement et en privilégiant des supports durables.`,
 
   subtitle_n3:'Humanitaire',
-  subText_n3:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  subText_n3:`Dyna-Livres considère la lecture comme un outil d'émancipation et offre son soutien aux populations démunies à travers des actions concrètes.`,
 };
 
 const dataMap__nameId_center = {

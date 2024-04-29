@@ -2,23 +2,76 @@
 /*-------------------⇩-⇩ HEADER & FOOTER ⇩-⇩-------------------*/
 
 /*---------------⇩-⇩ HEADER ⇩-⇩---------------*/
+/*---- (Début) Style nav fix ----*/
+/* header {
+  position: fixed;
+  background: #ffffff;
+  z-index: 2000;
+  width: 100%;
+}
+main {
+  padding-top: 20vh;
+} */
+/*---- (Fin) Style nav fix ----*/
 
-/*---- nav ----*/
+/* (début) NAVIGATION effect*/
+nav ul li a {
+  padding: 8px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+.stroke ul li a, .stroke span ul li a {
+  position: relative;
+}
+.stroke ul li a:after, .stroke span ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #fcb900;
+  height: 3px;
+}
+.stroke ul li a:hover:after, .stroke span ul li a:hover:after {
+  width: 100%;
+}
+/* (fin) NAVIGATION effect*/
+
+/*---- top nav ----*/
 .topNav {
   background-color: #fcb900;
   width: 100%;
-  height: 5vh;
+  height: 7vh;
   display: flex;
   align-items: center;
   justify-content: end;
 }
 
+.topNav .ulTopNav {
+  display: flex;
+  flex-direction: row;
+}
+
 .topNav a {
-  margin: 0px 20px;
-  padding-right: 90px;
+  margin: 0 80px 0 0;
   font-size: 24px;
   font-weight: bold;
-  color: #401626;
+  color: white;
+}
+
+.topNav .icon {
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
 }
 
 /*---- menu ----*/
@@ -30,20 +83,65 @@
   padding-right: 100px;
 }
 
+.mainNav .ulMainNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.mainNav li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 90px;
+}
+
+.mainNav .icon {
+  width: 24px;
+  height: 24px;
+}
+
 .mainNav a {
-  font-size: 32px;
-  font-weight: bolder;
-  padding-left: 50px;
+  font-size: 18px;
+  padding-top: 5px;
+  font-weight: 600;
   color: #666666;
 }
 
 .mainNav a img {
-  width: 141px;
-  height: 120px;
+  width: 65px;
+  height: 65px;
   padding: 20px 0 20px 100px;
 }
 
 /*---------------⇩-⇩ FOOTER ⇩-⇩---------------*/
+
+/*---- Logos greetings (footer) ----*/
+.thanks {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.thanks img {
+  width: 300px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.oops {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline #fcb900 5px;
+  line-height: 70px;
+  float: left;
+  width: 49%;
+  padding: 100px 0px;
+}
 
 /*---- panelContact (footer) ----*/
 .panelContact {
@@ -90,9 +188,12 @@
 }
 
 /*---- info (footer) ----*/
-.info {
+.block_infoUnderlineFooter {
   background-color: #ee9322;
-  height: 364px;
+  height: 416px;
+}
+
+.blockInfo {
   display: flex;
 }
 
@@ -136,16 +237,30 @@
 }
 
 #GoogleMaps {
-  margin: auto 170px auto 80px;
+  margin: auto 170px auto 150px;
+  padding-top: 50px;
   width: 300px;
-  height: 169px;
+  height: 225px;
   align-items: center;
 }
 
 #GoogleMaps img{
   width: 300px;
-  height: 169px;
+  height: 225px;
   object-fit: cover;
+}
+
+@media screen and (min-width: 1890px) {
+  #GoogleMaps {
+    width: 400px;
+    height: 225px;
+  }
+  
+  #GoogleMaps img{
+    width: 400px;
+    height: 225px;
+    object-fit: cover;
+  }
 }
 
 .media {
@@ -155,6 +270,27 @@
 .media a {
   padding-right: 15px;
 }
+
+.blockUnderlineFooter {
+  width: 88%;
+  margin: auto;
+  text-align: center;
+}
+
+.blockUnderlineFooter .underlineFooter {
+  border-style: none;
+  width: 88%;
+  height: 1px;
+  border-radius: 0.5px;
+  background: black;
+}
+
+.blockUnderlineFooter p {
+  padding: 20px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
 
 /*---- legalNotice (footer) ----*/
 .legalNotice {
