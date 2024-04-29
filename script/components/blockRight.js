@@ -40,7 +40,7 @@ function generateContent_right(ids) {
                     <hr class="underline">
                     <p>${data.text}</p>
                     <article>
-                        <a href=${data.a_href}><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/play.png" alt="petite logo play"></button>
+                        <a href=${data.a_href}><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/play.png" alt="icone play"></button>
                         </a>
                     </article>                    
                 </div>
