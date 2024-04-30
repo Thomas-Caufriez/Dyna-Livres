@@ -89,6 +89,7 @@
 .blockLeft div:first-child {
   margin-left: 5%;
   width: 40%;
+  margin-bottom: 80px;
 }
 
 .blockLeft h2 {
@@ -132,6 +133,7 @@
 .blockRight div:last-child {
   margin-right: 5%;
   width: 40%;
+  margin-bottom: 80px;
 }
 
 .blockRight h2 {
