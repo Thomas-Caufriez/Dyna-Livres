@@ -6,9 +6,10 @@
         <title>Dyna Livres</title>
         <link href="/styles/global/resetGlobal.css" rel="stylesheet" type="text/css">
         <link href="/styles/global/styleGlobal.css" rel="stylesheet" type="text/css">
-        <link href="/styles/components/carousel.css" rel="stylesheet" type="text/css">
         <link href="/styles/components/header_&_footer.css" rel="stylesheet" type="text/css">
+        <link href="/styles/components/ecolesAssociations.css" rel="stylesheet" type="text/css">
         <link href="/styles/components/allBlock.css" rel="stylesheet" type="text/css">
+        <link href="/styles/components/ecoles.css" rel="stylesheet" type="text/css">
         <link href="/index.css" rel="stylesheet" type="text/css">
     </head>
 
@@ -18,26 +19,70 @@
             <span id="header"></span>
         </header>
 
-        <main>
-            <Section class="collaboration"> <!-- collaborations -->
-                <img src="/img/WIP.png" alt="WIP">
-                <h2>En collaboration avec les écoles</h2> <!-- WASSIM CA CHANGE ICI -->
-                <hr class="underlineCenter">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </Section>
-            <section class="activities"> <!-- portfolio -->
+        <main>         
+            <!-- Témoignages -->
+            <div class="blockTestimonial">
+                <div class="testimonial">
+                    <h2 class="titleTestimonial">Témoignages de nos collaborateurs éducatifs</h2>
+                    <hr class="underline underlineTestimonial">
+                    <div class="allCards">
+                        <div class="card">
+                            <img src="/img/person=1.png" alt="wip">
+                            <p>“Ceci est la section recommandations/commentaires clients. Il y aura une brève description inclus à la fin du commentaires concernant la personnes qui la partager.” </p>
+                            <h3>Prénom et Nom</h3>
+                            <h4>Directeur @ company</h4>
+                        </div>
+                        <div class="card">
+                            <img src="/img/person=3.png" alt="wip">
+                            <p>“Ceci est la section recommandations/commentaires clients. Il y aura une brève description inclus à la fin du commentaires concernant la personnes qui la partager.” </p>
+                            <h3>Prénom et Nom</h3>
+                            <h4>Institutrice @ company</h4>
+                        </div>
+                        <div class="card">
+                            <img src="/img/person=2.png" alt="wip">
+                            <p>“Ceci est la section recommandations/commentaires clients. Il y aura une brève description inclus à la fin du commentaires concernant la personnes qui la partager.” </p>
+                            <h3>Prénom et Nom</h3>
+                            <h4>Coordinateur @ company</h4>
+                        </div>
+                        <div class="card">
+                            <img src="/img/person=4.png" alt="wip">
+                            <p>“Ceci est la section recommandations/commentaires clients. Il y aura une brève description inclus à la fin du commentaires concernant la personnes qui la partager.” </p>
+                            <h3>Prénom et Nom</h3>
+                            <h4>Directrice @ company</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- collaborations -->
+            <Section class="blockTop">
+                <div class="blockTopImg">
+                    <img src="/img/animatriceLisantLivreAvecEnfants.png" alt="WIP">
+                </div>
+                <div class="blockTopText">
+                    <h2 class="titleBlockTop">En collaboration avec les écoles</h2>
+                    <hr class="underlineCenter">
+                    <p>
+                    L'association intervient régulièrement en milieu scolaire pour proposer des ateliers pédagogiques autour de la lecture et du livre. Ces ateliers, adaptés aux différents niveaux d'enseignement (maternelle, primaire, secondaire), ont pour objectifs de:
+                    Développer les compétences en lecture et en expression écrite
+                    Stimuler la créativité et l'imagination des élèves
+                    Favoriser le plaisir de lire et l'appétence pour la littérature
+                    Aborder des thématiques sociales et d'actualité de manière ludique et interactive
+                    </p>
+                </div>
+              </Section>
+
+            <!-- portfolio -->
+            <section class="activities"> 
                 <h2>Portfolio des activités</h2>
-                <img src="/img/WIP.png" alt="WIP"> <!-- WASSIM CA CHANGE ICI -->
-                <img src="/img/WIP.png" alt="WIP"> <!-- WASSIM CA CHANGE ICI -->
-                <img src="/img/WIP.png" alt="WIP"> <!-- WASSIM CA CHANGE ICI -->
-                <img src="/img/WIP.png" alt="WIP"> <!-- WASSIM CA CHANGE ICI -->
+                <div class="activitiesBlockImg">
+                    <img src="/img/enfantLisantLivre.png" alt="WIP">
+                    <img src="/img/enfantsPeignantMur.png" alt="WIP">
+                    <img src="/img/enfantsLisantLivres.jpg" alt="WIP">
+                    <img src="/img/animatriceLisantLivreEnfants.png" alt="WIP">
+                </div>
             </section>
             
-            <section class="thanks">
-                <a href="https://www.provincedeliege.be/fr/culture"><img src="/img/logoProvinceLiegeCulture.png" alt="Logo Province de Liege Culture"></a>
-                <a href="https://cheneeculture.be/"><img src="/img/logoCentreCulturelChenee.png" alt="Logo Centre Culturel Chênée"></a>
-                <a href="https://www.provincedeliege.be/social"><img src="/img/logoProvinceLiegeSocial.png" alt="Logo Province de Liege Social"></a>
-            </section>
         </main>
 
 
@@ -52,5 +97,6 @@
         <script src="/script/components/blockLeft.js"></script>
         <script src="/script/components/blockCenter.js"></script>
         <script src="/script/components/blockRight.js"></script>
+        <script src="/script/components/blockTop.js"></script>
     </body>
 </html>

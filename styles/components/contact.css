@@ -1,0 +1,115 @@
+.adresse {
+    text-align: center;
+    box-shadow: 0px 10px 20px -10px;
+    margin: 10% 15%;
+}
+
+.adresse h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0px 0px 50px 0px;
+}
+
+.adresse img {
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 10px 20px -10px;
+    position: relative;
+    bottom: 50px;
+}
+
+.form {
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    margin: 10% 15%;
+    padding: 50px 80px;
+    box-shadow: 0px 5px 20px -10px;
+}
+
+.form h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline #ee9322 3px;
+    margin: 20px 0px;
+    text-underline-offset: 10px;
+}
+
+.form span {
+    color: red;
+}
+
+label {
+    font-size: 24px;
+    display: inline-block;
+}
+
+input[type=text] {
+    width: 75%;
+    height: 30px;
+    margin-left: 20%;
+    resize: vertical;
+}
+
+input[type=submit] {
+    float: right;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    margin: 20px 0px;
+    height: 100px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.div-25 {
+    float: left;
+    width: 25%;
+    margin-top: 50px;
+}
+
+.div-75 {
+    float: left;
+    width: 75%;
+    margin-top: 50px;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    flex: 33%;
+    background-color: #e0e0e0;
+}
+
+.help h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.help div:first-child{
+    margin-top: 30px;
+}
+
+.help div:last-child {
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+}
+
+.help span {
+   padding: 0px 100px;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.help span p {
+    text-align: justify;
+    line-height: 34px;
+    margin: 20px 0px;
+}

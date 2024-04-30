@@ -9,6 +9,7 @@
         <link href="/styles/components/carousel.css" rel="stylesheet" type="text/css">
         <link href="/styles/components/header_&_footer.css" rel="stylesheet" type="text/css">
         <link href="/styles/components/allBlock.css" rel="stylesheet" type="text/css">
+        <link href="/styles/components/contact.css" rel="stylesheet" type="text/css">
         <link href="/index.css" rel="stylesheet" type="text/css">
     </head>
 
@@ -19,52 +20,77 @@
         </header>
 
         <main>
-            <section> <!-- coordonnées -->
-                <h2>Coordonnées</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <img src="/images/WIP.png" alt="Work in progress" width="200px" height="200px"> <!-- google map -->
+            <section class="adresse"> <!-- coordonnées -->
+                <img src="/img/Maps.png" alt="Google Maps"> <!-- google map -->
+                <h2>Rue des Grands-Prés, 202 - 4032 Liège</h2>
             </section>
-            <section id="formulaire"> <!-- formulaire -->
-                <h2>Formulaire de contact</h2>
+            <section class="form"> <!-- formulaire -->
                 <form> <!-- formulaire de contact, à travailler -->
                     <section>
-                        <label for="fname">Prénom:</label><br>
-                        <input type="text" id="fname" name="fname"><br>
-                        <label for="lname">Nom:</label><br>
-                        <input type="text" id="lname" name="lname"><br>
+                        <label for="message"><h2>Décrivez votre demande <span>*</span></h2></label>
+                        <Textarea placeholder="Votre message..."></Textarea>
+
+                        <h2>Vous recontacter</h2>
+                        <div class="div-25">
+                            <label for="fname">Prénom <span>*</span></label>
+                        </div>
+                        <div class="div-75">
+                            <input type="text" id="fname" name="fname" placeholder="e.g. John">
+                        </div>
+                        <div class="div-25">
+                            <label for="lname">Nom <span>*</span></label>
+                        </div>
+                        <div class="div-75">
+                            <input type="text" id="lname" name="lname" placeholder="e.g. Doe">
+                        </div>
+                        <div class="div-25">
+                            <label for="mail">Email <span>*</span></label>
+                        </div>
+                        <div class="div-75">
+                            <input type="text" id="mail" name="mail" placeholder="e.g. John.Doe@gmail.com">
+                        </div>
+                        <div class="div-25">
+                            <label for="inc">Entreprise <span>*</span></label>
+                        </div>
+                        <div class="div-75">
+                            <input type="text" id="inc" name="inc" placeholder="e.g. ASBL Dyna-Livres">
+                        </div>
+                        <div class="div-25">
+                            <label for="coords">Adresse <span>*</span></label>
+                        </div>
+                        <div class="div-75">
+                            <input type="text" id="coords" name="coords" placeholder="e.g. Rue des Grands-Prés, 202 - 4032 Liège">
+                        </div>
+                        <div class="div-25">
+                            <label for="phone">Téléphone <span>*</span></label>
+                        </div>
+                        <div class="div-75">
+                            <input type="text" id="phone" name="phone" placeholder="e.g. +32 123 123 4567">
+                        </div>
+                        <br>
+                        <input class="buttonCTA" type="submit" value="Valider">
                     </section>
-                    <label for="inc">Entreprise:</label><br>
-                    <input type="text" id="inc" name="inc"><br>
-                    <label for="inc">Addresse:</label><br>
-                    <input type="text" id="inc" name="inc"><br>
-                    <label for="mail">E-mail:</label><br>
-                    <input type="text" id="mail" name="mail"><br>
-                    <label for="nbr">Numérode téléphone:</label><br>
-                    <input type="text" id="nbr" name="nbr"><br>
-                    <label for="sector">Secteur de l'entreprise:</label><br>
-                    <input type="text" id="sector" name="sector"><br>
-                    <label for="txt">Zone de texte:</label><br>
-                    <input type="text" id="txt" name="txt"><br>
                 </form>
             </section>
-            <section> <!-- calendrier -->
-                <h2>Calendrier des disponibilités</h2> <!-- je sais même plus si on devait le garder ça -->
-            </section>
-            <section> <!-- newsletter -->
-                <h2>Newsletter</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="/pages/en_developpement.html"><button type="button">Inscription Newsletter</button></a>
-            </section>
-            <section> <!-- dons -->
-                <h2>Nous soutenir</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="/pages/en_developpement.html"><button type="button">Faire un don</button></a>
-            </section>
-            
-            <section class="thanks">
-                <a href="https://www.provincedeliege.be/fr/culture"><img src="/img/logoProvinceLiegeCulture.png" alt="Logo Province de Liege Culture"></a>
-                <a href="https://cheneeculture.be/"><img src="/img/logoCentreCulturelChenee.png" alt="Logo Centre Culturel Chênée"></a>
-                <a href="https://www.provincedeliege.be/social"><img src="/img/logoProvinceLiegeSocial.png" alt="Logo Province de Liege Social"></a>
+            <section class="help">
+                <div>
+                    <h2>Nous soutenir</h2>
+                    <hr class="underlineCenter">
+                </div>
+                <div>
+                    <span> <!-- newsletter -->
+                        <img src="/img/iconeNewsletter.png" alt="icone newsletter">
+                        <h2>Newsletter</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="/pages/en_developpement.html"><button class="buttonInfo" type="button">Inscription Newsletter <img src="/img/play.png" alt="icone play"></button></a>
+                    </span>
+                    <span> <!-- dons -->
+                        <img src="/img/iconDon.png" alt="icone don">
+                        <h2>Nous soutenir</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="/pages/en_developpement.html"><button class="buttonCTA" type="button">Faire un don <img src="/img/play.png" alt="icone play"></button></a>
+                    </span>
+                </div>
             </section>
         </main>
 

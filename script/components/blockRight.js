@@ -2,34 +2,36 @@
 /*----------------⇩-⇩ BLOCK RIGHT ⇩-⇩----------------*/
 
 const dataEcole = {
-  title: 'Écoles',
-  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  a_href: '/pages/ecoles.html',
-  src: '/img/mainEnfantPeignant.png',
-  alt: "Main d'enfant peignant",
+  title: `Écoles`,
+  text: `Ateliers lecture ludiques et stimulants.
+  De Tous les âges, du primaire au secondaire, développer le goût de lire, la créativité et l'esprit critique. Thématiques d'actualité et inclusion animés par des professionnels passionnés.
+  Contactez-nous pour un projet sur mesure !`,
+  a_href: `/pages/ecoles.html`,
+  src: `/img/mainEnfantPeignant.png`,
+  alt: `"Main d'enfant peignant"`,
 };
 const dataNewsletter = {
-  title: 'Newsletter',
-  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  a_href: '/pages/WIP.html',
-  src: '/img/animatriceLisantLivreAvecEnfants.png',
-  alt: 'Animatrice lisant un livre avec des enfants',
+  title: `Newsletter`,
+  text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+  a_href: `/pages/en_developpement.html`,
+  src: `/img/animatriceLisantLivreAvecEnfants.png`,
+  alt: `"Animatrice lisant un livre avec des enfants"`,
 };
 
+/*id "ecoles_blockRight" & "newsletter_blockRight" & "... etc" venant de html pour être appeler et utiliser dans le js*/
 const dataMap__nameId_right = {
   ecoles_blockRight: dataEcole,
   newsletter_blockRight: dataNewsletter,
 };
 
 function generateContent_right(ids) {
-  let content = '';
+  let content = ``;
 
   ids.forEach((id) => {
     const data = dataMap__nameId_right[id];
     if (data) {
       content += `
-        <div id="${id}" class="containerRight"> 
-            <div class="blockRight">
+            <div id="${id}" class="blockRight">
                 <div>                        
                     <img src=${data.src} alt=${data.alt}>
                 </div>
@@ -38,12 +40,11 @@ function generateContent_right(ids) {
                     <hr class="underline">
                     <p>${data.text}</p>
                     <article>
-                        <a href=${data.a_href}><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/play.png" alt="petite logo play"></button>
+                        <a href=${data.a_href}><button type="button" class="buttonInfo">En savoir plus <img src="/img/play.png" alt="icone play"></button>
                         </a>
                     </article>                    
                 </div>
             </div>
-        </div>
     `;
     }
   });
