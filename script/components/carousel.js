@@ -69,7 +69,7 @@ prev.onclick = function () {
 };
 let refreshInterval = setInterval(() => {
   next.click();
-}, 100000000);
+}, 6000);
 function reloadSlider() {
   slider.style.left = -items[active].offsetLeft + 'px';
   //
@@ -81,7 +81,7 @@ function reloadSlider() {
   clearInterval(refreshInterval);
   refreshInterval = setInterval(() => {
     next.click();
-  }, 100000000);
+  }, 6000);
   // ici on change le temps de rafraichissement avec le setInterval 3000 (3sec)
 }
 

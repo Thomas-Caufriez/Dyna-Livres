@@ -22,28 +22,23 @@ const header = `
     <span>
         <ul class="ulMainNav">
             <li>
-                <img class="icon" src="/img/VectorAccueil.svg" alt="icon accueil">
-                <a href="/index.html">Accueil</a>
+                <a href="/index.html"><img class="icon" src="/img/VectorAccueil.svg" alt="icon accueil">Accueil</a>
             </li>
 
-            <li>
-                <img class="icon" src="/img/VectorEcole.svg" alt="icon ecoles">
-                <a href="/pages/ecoles.html">Écoles</a>
+            <li>       
+                <a href="/pages/ecoles.html"><img class="icon" src="/img/VectorEcole.svg" alt="icon ecoles">Écoles</a>
             </li>
 
-            <li>
-                <img class="icon" src="/img/VectorAssociation.svg" alt="icon association">
-                <a href="/pages/associations.html">Associations</a>
+            <li>         
+                <a href="/pages/associations.html"><img class="icon" src="/img/VectorAssociation.svg" alt="icon association">Associations</a>
             </li>
 
-            <li>
-                <img class="icon" src="/img/VectorDynalivre.svg" alt="icon Dynalivre">
-                <a href="/pages/dynaLivres.html">Dyna-Livres</a>
+            <li>     
+                <a href="/pages/dynaLivres.html"><img class="icon" src="/img/VectorDynalivre.svg" alt="icon Dynalivre">Dyna-Livres</a>
             </li>
 
-            <li>
-                <img class="icon" src="/img/VectorContact.svg" alt="icon contact">
-                <a href="/pages/contact.html">Contact</a>
+            <li>    
+                <a href="/pages/contact.html"><img class="icon" src="/img/VectorContact.svg" alt="icon contact">Contact</a>
             </li>
         </ul>
     </span>
