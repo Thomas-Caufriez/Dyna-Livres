@@ -35,7 +35,7 @@ const dataStages = {
   Développez vos compétences pédagogiques et artistiques, contribuez à l'épanouissement personnel des bénéficiaires.
   Stage enrichissant et expérience unique !
   Dyna-Livres, donnez du sens à vos études !`,
-  a_href: '/pages/associations.html',
+  a_href: '/pages/en_developpement.html',
   src: '/img/enfantsPeignantMur.png',
   alt: 'Enfants peignant sur un mur',
 };
