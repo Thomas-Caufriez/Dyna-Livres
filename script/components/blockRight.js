@@ -12,7 +12,7 @@ const dataEcole = {
 };
 const dataNewsletter = {
   title: `Newsletter`,
-  text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+  text: `Plongez dans un univers où chaque recommandation de lecture est une invitation à renouer avec le plaisir de lire, tout en explorant des thématiques sociétales et écologiques d'actualité. Abonnez-vous dès maintenant pour ne rien manquer de nos dernières publications et pour enrichir votre boîte de réception avec des contenus inspirants et pertinents.`,
   a_href: `/pages/en_developpement.html`,
   src: `/img/animatriceLisantLivreAvecEnfants.png`,
   alt: `"Animatrice lisant un livre avec des enfants"`,
