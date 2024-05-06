@@ -6,15 +6,15 @@ const dataEcole = {
   text: `Ateliers lecture ludiques et stimulants.
   De Tous les âges, du primaire au secondaire, développer le goût de lire, la créativité et l'esprit critique. Thématiques d'actualité et inclusion animés par des professionnels passionnés.
   Contactez-nous pour un projet sur mesure !`,
-  a_href: `/pages/ecoles.html`,
-  src: `/img/mainEnfantPeignant.png`,
+  a_href: `./pages/ecoles.html`,
+  src: `./img/mainEnfantPeignant.png`,
   alt: `"Main d'enfant peignant"`,
 };
 const dataNewsletter = {
   title: `Newsletter`,
   text: `Plongez dans un univers où chaque recommandation de lecture est une invitation à renouer avec le plaisir de lire, tout en explorant des thématiques sociétales et écologiques d'actualité. Abonnez-vous dès maintenant pour ne rien manquer de nos dernières publications et pour enrichir votre boîte de réception avec des contenus inspirants et pertinents.`,
-  a_href: `/pages/en_developpement.html`,
-  src: `/img/animatriceLisantLivreAvecEnfants.png`,
+  a_href: `./pages/en_developpement.html`,
+  src: `./img/animatriceLisantLivreAvecEnfants.png`,
   alt: `"Animatrice lisant un livre avec des enfants"`,
 };
 
@@ -40,7 +40,7 @@ function generateContent_right(ids) {
                     <hr class="underline">
                     <p>${data.text}</p>
                     <article>
-                        <a href=${data.a_href}><button type="button" class="buttonInfo">En savoir plus <img src="/img/play.png" alt="icone play"></button>
+                        <a href=${data.a_href}><button type="button" class="buttonInfo">En savoir plus <img src="./img/play.png" alt="icone play"></button>
                         </a>
                     </article>                    
                 </div>
