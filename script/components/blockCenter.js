@@ -34,17 +34,17 @@ function generateContent_center(ids) {
             </div>
             <div>
                 <span>
-                    <img src="/img/social.png" alt="Icone social">
+                    <img src="./img/social.png" alt="Icone social">
                     <h2>${data.subtitle_n1}</h2>
                     <p>${data.subText_n1}</p>
                 </span>
                 <span>
-                    <img src="/img/ecologique.png" alt="Icone ecologique">
+                    <img src="./img/ecologique.png" alt="Icone ecologique">
                     <h2>${data.subtitle_n2}</h2>
                     <p>${data.subText_n2}</p>
                 </span>
                 <span>
-                    <img src="/img/humanitaire.png" alt="Icone humanitaire">
+                    <img src="./img/humanitaire.png" alt="Icone humanitaire">
                     <h2>${data.subtitle_n3}</h2>
                     <p>${data.subText_n3}</p>
                 </span>

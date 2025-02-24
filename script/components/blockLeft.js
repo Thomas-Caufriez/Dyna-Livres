@@ -5,8 +5,8 @@ const dataObjectif = {
   title: 'Objectifs',
   text: `Dyna-Livres, une ASBL active depuis 1997 située à Liège, propose des animations de lecture sur mesure aux écoles, associations et structures sociales de la région liégeoise.
   Lecture, expression artistique, création littéraire et rencontres avec des auteurs. Dyna-Livres met à votre disposition une équipe passionnée pour éveiller l'imagination, la créativité et la confiance en soi des enfants et des adultes.`,
-  a_href: '/pages/associations.html',
-  src: '/img/enfantLisantLivre.png',
+  a_href: './pages/associations.html',
+  src: './img/enfantLisantLivre.png',
   alt: 'Enfant lisant un livre',
 };
 const dataAssos = {
@@ -17,16 +17,16 @@ const dataAssos = {
   Rencontres, débats et partages
   Projets sur mesure possibles
   Dyna-Livres : la lecture, un plaisir à partager !`,
-  a_href: '/pages/associations.html',
-  src: '/img/animateurLisantLivreEnfants.png',
+  a_href: './pages/associations.html',
+  src: './img/animateurLisantLivreEnfants.png',
   alt: 'Animateur lisant un livres à des enfants',
 };
 const dataDyna = {
   title: 'Dyna Livres',
   text: `Éveiller et cultiver par la lecture !
   L'ASBL Dyna-Livres promeut la lecture pour tous. Ils proposent des ateliers ludiques en milieu scolaire et pour tous les publics. Leurs actions favorisent la créativité, l'inclusion et l'esprit critique. Dyna-Livres utilise la lecture comme un outil d'apprentissage, de développement personnel et de citoyenneté.`,
-  a_href: '/pages/associations.html',
-  src: '/img/enfantsPeignantMur.png',
+  a_href: './pages/associations.html',
+  src: './img/enfantsPeignantMur.png',
   alt: 'Enfants peignant sur un mur',
 };
 const dataStages = {
@@ -35,8 +35,8 @@ const dataStages = {
   Développez vos compétences pédagogiques et artistiques, contribuez à l'épanouissement personnel des bénéficiaires.
   Stage enrichissant et expérience unique !
   Dyna-Livres, donnez du sens à vos études !`,
-  a_href: '/pages/en_developpement.html',
-  src: '/img/enfantsPeignantMur.png',
+  a_href: './pages/en_developpement.html',
+  src: './img/enfantsPeignantMur.png',
   alt: 'Enfants peignant sur un mur',
 };
 
@@ -63,7 +63,7 @@ function generateContent_left(ids) {
               <article>
                   <a href=${data.a_href}>
                   <button type="button" class="buttonInfo">
-                  En savoir plus <img src="/img/play.png" alt="icone play">
+                  En savoir plus <img src="./img/play.png" alt="icone play">
                   </button>
                   </a>
               </article>

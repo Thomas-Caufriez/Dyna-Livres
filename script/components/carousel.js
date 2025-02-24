@@ -5,36 +5,36 @@ const carousel = `
 <section class="slider">
   <div class="list">
       <div class="item">
-          <img src="/img/animatriceLisantLivreEnfants.png" alt="Animatrice lisant un livre à des enfants">
+          <img src="./img/animatriceLisantLivreEnfants.png" alt="Animatrice lisant un livre à des enfants">
           <div class="bubbleInfo" >
               <p>Réveillez le goût de la lecture chez vos élèves.</p>
               <article>
-                  <a href="/pages/contact.html"><button type="button" class="buttonCTA">Contactez-nous <img src="/img/play.png" alt="icone play"></button></a>
+                  <a href="./pages/contact.html"><button type="button" class="buttonCTA">Contactez-nous <img src="./img/play.png" alt="icone play"></button></a>
               </article>
           </div>
       </div>
       <div class="item">
-          <img src="/img/enfantsLisantLivres.jpg" alt="Enfants lisant des livres">
+          <img src="./img/enfantsLisantLivres.jpg" alt="Enfants lisant des livres">
           <div class="bubbleInfo">
               <p>Stimulez l'apprentissage avec nos idées innovantes.</p>
               <article>
-                  <a href="/pages/en_developpement.html"><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/play.png" alt="icone play"></button></a>
+                  <a href="./pages/en_developpement.html"><button type="button" class="buttonCTA">Inscrivez-vous <img src="./img/play.png" alt="icone play"></button></a>
               </article>
           </div>
       </div>
       <div class="item">
-          <img src="/img/murCantineDinosaures.jpg" alt="Mur d'une cantine avec des dinosaures">
+          <img src="./img/murCantineDinosaures.jpg" alt="Mur d'une cantine avec des dinosaures">
           <div class="bubbleInfo">
               <p>Activités en collaboration avec nos partenaires.</p>
               <article>
-                  <a href="/pages/en_developpement.html"><button type="button" class="buttonCTA">Inscrivez-vous <img src="/img/play.png" alt="icone play"></button></a>
+                  <a href="./pages/en_developpement.html"><button type="button" class="buttonCTA">Inscrivez-vous <img src="./img/play.png" alt="icone play"></button></a>
               </article>
           </div>
       </div>
   </div>
   <div class="buttons">
-      <button id="prev"><img src="./img/arrowLeft.svg" alt=""></button>
-      <button id="next"><img src="./img/arrowRight.svg" alt=""></button>
+      <button id="prev"><img src="./img/arrowLeft.svg"></button>
+      <button id="next"><img src="./img/arrowRight.svg"></button>
   </div>
   <ul class="dots">
       <li class="active"></li>
