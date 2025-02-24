@@ -33,8 +33,8 @@ const carousel = `
       </div>
   </div>
   <div class="buttons">
-      <button id="prev"><img src="./img/arrowLeft.svg" alt=""></button>
-      <button id="next"><img src="./img/arrowRight.svg" alt=""></button>
+      <button id="prev"><img src="./img/arrowLeft.svg"></button>
+      <button id="next"><img src="./img/arrowRight.svg"></button>
   </div>
   <ul class="dots">
       <li class="active"></li>
