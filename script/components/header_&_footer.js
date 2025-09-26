@@ -34,7 +34,7 @@ const header = `
             </li>
 
             <li>     
-                <a href="./dynaLivres.html"><img class="icon" src="./../img/VectorDynalivre.svg" alt="icon Dynalivre">Dyna-Livres</a>
+                <a href="./dynaLivres.html"><img class="icon" src="./../img/VectorDynalivres.svg" alt="icon Dynalivre">Dyna-Livres</a>
             </li>
 
             <li>    
